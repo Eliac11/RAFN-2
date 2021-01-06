@@ -5,7 +5,6 @@ using UnityEngine;
 public class WeaponSwitch : MonoBehaviour {
 
 	public GameObject weapon1;
-	
 	public GameObject weapon2;
 	public int selectedWeapon = 0;
 
