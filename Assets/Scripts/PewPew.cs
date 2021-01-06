@@ -19,6 +19,7 @@ void Start()
 	audio = GetComponent<AudioSource>();
 }
 
+
  void Update() 
 {
 	if(Input.GetMouseButton(0))
