@@ -14,7 +14,8 @@ public ParticleSystem vistrel;
 
 
 	private int BulletInShop;
-private float curTimeout;
+	private bool canfire = true;
+
 Animator hahanimator;
 private AudioSource audio;
 
@@ -32,20 +33,17 @@ void Start()
 {
 	if(Input.GetMouseButton(0))
 	{
-		curTimeout += Time.deltaTime;
-		if(curTimeout > timeout)
-		{
-				if (BulletInShop > 0)
+		
+				if (canfire)
 				{
-					curTimeout = 0;
-					Fire();
-					BulletInShop -= 1;
+					if (BulletInShop > 0)
+					{
+						Fire();
+						BulletInShop -= 1;
+						canfire = false;
+					}
 				}
-		}
-	}
-	else 
-	{
-		curTimeout = timeout + 1;
+		
 	}
 
 		if (Input.GetKey(KeyCode.R))
@@ -72,6 +70,11 @@ void Start()
 	public void Recharge()
 	{
 		BulletInShop = maxBulletinShop;
+		canfire = true;
+	}
+	public void makeCanFire()
+	{
+		canfire = true;
 	}
 
 }
