@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (HP < 0)
+        if (HP <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
