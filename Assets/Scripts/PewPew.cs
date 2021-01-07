@@ -8,6 +8,7 @@ public Rigidbody bullet;
 public Transform gunPoint;
 public float bulletSpeed = 10;
 public float timeout = 0.5f;
+public ParticleSystem vistrel;
 
 	public int maxBulletinShop = 6;
 
@@ -47,8 +48,6 @@ void Start()
 		curTimeout = timeout + 1;
 	}
 
-
-
 		if (Input.GetKey(KeyCode.R))
 		{
 			if (BulletInShop != maxBulletinShop)
@@ -61,6 +60,7 @@ void Start()
 	void Fire()
 	{
 			hahanimator.SetTrigger("Shoot");
+			vistrel.Play();
 			audio.PlayOneShot(audio.clip);
 			
 			Rigidbody bulletInstance = Instantiate(bullet, gunPoint.position, Quaternion.identity) as Rigidbody;
