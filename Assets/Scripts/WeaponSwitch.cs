@@ -6,12 +6,14 @@ public class WeaponSwitch : MonoBehaviour {
 
 	public GameObject weapon1;
 	public GameObject weapon2;
+	public GameObject weapon3;
 	public int selectedWeapon = 0;
 
 	// Use this for initialization
 	void Start () {
 		weapon1.SetActive (true);
 		weapon2.SetActive (false);
+		weapon3.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -43,11 +45,19 @@ public class WeaponSwitch : MonoBehaviour {
 		{
 			weapon1.SetActive (true);
 			weapon2.SetActive (false);
+			weapon3.SetActive (false);
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha2)) 
 		{
 			weapon1.SetActive (false);
 			weapon2.SetActive (true);
+			weapon3.SetActive (false);
+		}
+		if (Input.GetKeyDown (KeyCode.Alpha3)) 
+		{
+			weapon1.SetActive (false);
+			weapon2.SetActive (false);
+			weapon3.SetActive (true);
 		}
 	}
 	void SelectWeapon(){
