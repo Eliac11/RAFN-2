@@ -7,13 +7,12 @@ public class SmenaOruzhiya : MonoBehaviour
 	public int weaponSwitch = 0;
 	public int OpenWeapon = 2;
 	public bool RemPickedUp = false;
+	public AudioSource podbor;
 
-	// Use this for initialization
 	void Start () {
         SelectWeapon();
 	}
 	
-	// Update is called once per frame
 	void Update () {
 
 		int currentWeapon = weaponSwitch;
@@ -68,12 +67,13 @@ public class SmenaOruzhiya : MonoBehaviour
 		}
 		}
 
-   public void OnTriggerEnter (Collider collision)
+public void OnTriggerEnter (Collider collision)
     {
         if(collision.gameObject.tag == "Remington")
         {
             OpenWeapon -=1;
             RemPickedUp = true;
+			podbor.Play();
         }
     }
 }
