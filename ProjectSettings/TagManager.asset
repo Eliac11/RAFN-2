@@ -9,6 +9,8 @@ TagManager:
   - EnemyHit
   - BulletR
   - Remington
+  - Door
+  - DoorKey
   layers:
   - Default
   - TransparentFX
