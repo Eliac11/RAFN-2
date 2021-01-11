@@ -2063,9 +2063,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6148855141521038132}
+  - component: {fileID: 602738873}
+  - component: {fileID: 4053831615588151417}
   m_Layer: 0
   m_Name: Remington 700
-  m_TagString: Untagged
+  m_TagString: Remington
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2079,7 +2081,7 @@ Transform:
   m_GameObject: {fileID: 6782086241002340750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.5931325, y: 1.6658986, z: 4.168868}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.20112, y: 0.20112, z: 0.20112}
   m_Children:
   - {fileID: 6949383903511812973}
   - {fileID: 2811675566200093531}
@@ -2127,6 +2129,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &602738873
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6782086241002340750}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 13.903733, y: 9.506314, z: 22.255075}
+  m_Center: {x: -2.154638, y: 4.2909966, z: -2.3596897}
+--- !u!114 &4053831615588151417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6782086241002340750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c93b7e3b3cc928439b0934f4d7732c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rem: {fileID: 6782086241002340750}
 --- !u!1 &7666693831926657623
 GameObject:
   m_ObjectHideFlags: 0

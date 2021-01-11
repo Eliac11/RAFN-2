@@ -5,7 +5,7 @@ using UnityEngine;
 public class podbor : MonoBehaviour {
 
 	public float distans = 2f;
-	public GameObject pistol;
+	public GameObject remington;
 
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,7 @@ public class podbor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.E)) 
+		if (Input.GetKeyDown(KeyCode.F)) 
 		{
 			Ray ray = Camera.main.ScreenPointToRay (new Vector2 (Screen.width / 2, Screen.height / 2));
 			RaycastHit hit;
@@ -22,7 +22,7 @@ public class podbor : MonoBehaviour {
 			{
 				if (hit.collider.GetComponent<pod>()) {
 					pod podb = hit.collider.GetComponent<pod> ();
-					pistol.SetActive (true);
+					remington.SetActive (true);
 					Destroy (podb.gameObject);
 
 	}

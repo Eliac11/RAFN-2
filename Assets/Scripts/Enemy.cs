@@ -48,6 +48,10 @@ public class Enemy : MonoBehaviour
       {
           HP = HP - 25;
      }
+     if (other.tag == "BulletR")
+      {
+          HP = HP - 75;
+     }
         }
         void OnTriggerStay (Collider other)
     {
