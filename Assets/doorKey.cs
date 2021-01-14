@@ -15,9 +15,11 @@ if (other.tag == "Player")
     if (other.GetComponent<KeyControl>().KeyHas == true)
     {
         OpenDoor();
+        
     }
 }
-    }
+
+}
     public void OpenDoor()
     {
         gameObject.GetComponent<Animator>().SetTrigger("Open");
