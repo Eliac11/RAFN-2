@@ -4421,7 +4421,7 @@ PrefabInstance:
     - target: {fileID: 8832061827575953819, guid: de9956f95e45c1b4ebbb057557d90600,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8832061827575981499, guid: de9956f95e45c1b4ebbb057557d90600,
         type: 3}
@@ -4958,13 +4958,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9be09ac71e76e374d960f2fc6143bf45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mintimespawn: 2
-  maxtimespawn: 5
+  mintimespawn: 0.000000004
+  maxtimespawn: 3e-10
   regdolls:
   - {fileID: 1500453370657902721, guid: 77dd8e7aa1cdb66439b463a3b60d0ac7, type: 3}
   - {fileID: 9004703711698882024, guid: 55498f5da8ea9a0449e664c01f7ce921, type: 3}
   - {fileID: 2538967531578436596, guid: aba09ce09123061469d584e9fed2c782, type: 3}
   spawnheight: 20
+  spawnrect: 20
   player: {fileID: 1441579440}
 --- !u!1 &2073014959
 GameObject:
