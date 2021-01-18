@@ -8,7 +8,6 @@ public class OnMusicTrigger : MonoBehaviour
 
     void OnCollisionEnter(Collision over)
     {
-        Debug.Log("111");
         if (over.gameObject.CompareTag("Player"))
         {
             aaa.Play();
