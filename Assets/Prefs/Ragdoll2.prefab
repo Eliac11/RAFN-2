@@ -1048,7 +1048,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8998815842094001598}
-  - component: {fileID: 1555249946917386658}
   - component: {fileID: 4405123023130113976}
   m_Layer: 0
   m_Name: Armature
@@ -1072,19 +1071,6 @@ Transform:
   m_Father: {fileID: 8998968115435967640}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1555249946917386658
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9004564082152518704}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1.4250574, y: 2.6972716, z: 3.8659134}
-  m_Center: {x: 0, y: 0.065605044, z: 1.9329567}
 --- !u!54 &4405123023130113976
 Rigidbody:
   m_ObjectHideFlags: 0
