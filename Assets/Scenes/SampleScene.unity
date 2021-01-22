@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1942,6 +1942,104 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1812470502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1250879132, guid: e482f6bbdc6676b4787bc78584f84d2f, type: 3}
+      propertyPath: Radio
+      value: 
+      objectReference: {fileID: 1837132059}
+    - target: {fileID: 2061794553718217763, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: txt
+      value: 
+      objectReference: {fileID: 171235189}
+    - target: {fileID: 2061794553718217763, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: Radio
+      value: 
+      objectReference: {fileID: 1837132059}
+    - target: {fileID: 2061794553718217763, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: PaperText
+      value: 1231231231231231
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061794553718217763, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: RadioText
+      value: 123
+      objectReference: {fileID: 0}
+    - target: {fileID: 2061794553718217763, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.4803
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486313272923674318, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_Name
+      value: radio (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e482f6bbdc6676b4787bc78584f84d2f, type: 3}
 --- !u!1 &1837132059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2650,6 +2748,11 @@ PrefabInstance:
       propertyPath: RadioPod
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2061794553718217763, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
         type: 3}
       propertyPath: m_RootOrder
@@ -2668,7 +2771,7 @@ PrefabInstance:
     - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.415
+      value: 11.81
       objectReference: {fileID: 0}
     - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
         type: 3}
