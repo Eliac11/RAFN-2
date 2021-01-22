@@ -385,6 +385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio: {fileID: 8835004884196430222}
   Open: {fileID: 8300000, guid: 9f4078dc35f39ea41b1b7ceca9514fda, type: 3}
+  isneedKey: 1
 --- !u!82 &8835004884196430222
 AudioSource:
   m_ObjectHideFlags: 0

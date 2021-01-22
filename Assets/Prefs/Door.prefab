@@ -246,7 +246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6718661192710269712}
-  - component: {fileID: 6718661192710269718}
+  - component: {fileID: 5915301954444775529}
   - component: {fileID: 6718661192710269719}
   - component: {fileID: 6718661192710269713}
   - component: {fileID: 6718661192710269717}
@@ -272,7 +272,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6718661192710269718
+--- !u!114 &5915301954444775529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,11 +281,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6718661192710269714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43db2b81681a53141b6d1fabc93a3a69, type: 3}
+  m_Script: {fileID: 11500000, guid: 4385465dda3eef94aa256c882cbbdf04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audio: {fileID: 6718661192710269719}
   Open: {fileID: 8300000, guid: 9f4078dc35f39ea41b1b7ceca9514fda, type: 3}
+  isneedKey: 0
 --- !u!82 &6718661192710269719
 AudioSource:
   m_ObjectHideFlags: 0
