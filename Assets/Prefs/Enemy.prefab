@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   dist: 0
-  Radius: 10
+  Radius: 5
   HP: 100
   Ragdoll: {fileID: 1500453370657902721, guid: 77dd8e7aa1cdb66439b463a3b60d0ac7, type: 3}
 --- !u!65 &516300808710749448

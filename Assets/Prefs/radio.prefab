@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250879130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.36}
+  m_LocalPosition: {x: 0, y: 0.02, z: -0.36}
   m_LocalScale: {x: 5.5063977, y: 5.5063977, z: 5.5063977}
   m_Children: []
   m_Father: {fileID: 5859133786909052020}
@@ -295,6 +295,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txt: {fileID: 0}
-  RadioText: -Captain, Wallace fell and broke his neck.                      -Leave
-    him. We cant stop right now.
+  RadioText: 123
   Radio: {fileID: 0}
