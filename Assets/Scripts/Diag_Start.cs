@@ -1,26 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-public class DialogManager : MonoBehaviour
+public class Diag_Start : MonoBehaviour
 {
-    public GameObject DialogWindow;
-    public DialogStart dialogScript;
+    public bool enddial;
+    public GameObject dial1;
 
+    void Update()
+    {
+        if (enddial == true)
+        {
+            dial1.SetActive (false);
+        }
+    }
     void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player")
         {
-            dialogScript.enabled = true;
+            dial1.SetActive (true);
         }
     }
     void OnTriggerExit(Collider other)
     {
         if(other.tag == "Player")
         {
-            DialogWindow.SetActive (false);
-            dialogScript.enabled = false;
+            dial1.SetActive (false);
         }
     }
 }
