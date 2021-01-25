@@ -9,7 +9,8 @@ public class Dawnreplay : MonoBehaviour
     {
         if (over.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneLoader.StartScene(SceneManager.GetActiveScene().name);
         }
     }
 }
