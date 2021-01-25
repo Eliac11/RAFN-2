@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class m2 : MonoBehaviour
 {
@@ -9,7 +8,7 @@ public class m2 : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            SceneManager.LoadScene("Level3");
+            SceneLoader.StartScene("Level3");
         }
     }
 }
