@@ -1,0 +1,11 @@
+Model Information:
+* title:	Playstation 4
+* source:	https://sketchfab.com/3d-models/playstation-4-d4d72667ee8244a194b2416ff6de84b7
+* author:	Smoggybeard (https://sketchfab.com/Smoggybeard)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Playstation 4" (https://sketchfab.com/3d-models/playstation-4-d4d72667ee8244a194b2416ff6de84b7) by Smoggybeard (https://sketchfab.com/Smoggybeard) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
