@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
         if (HP <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+        } 
     }
      void OnTriggerEnter (Collider other)
     {
