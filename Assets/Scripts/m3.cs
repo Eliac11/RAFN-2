@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class m1 : MonoBehaviour
+public class m3 : MonoBehaviour
 {
-    
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if(other.tag == "Player")
         {
-            SceneLoader.StartScene("Level2");
+        SceneLoader.StartScene("Level4");
         }
     }
 }
