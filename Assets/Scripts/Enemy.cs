@@ -50,7 +50,7 @@ public class Enemy : MonoBehaviour
      }
      if (other.tag == "BulletR")
       {
-          HP = HP - 75;
+          HP = HP - 100;
      }
         }
         void OnTriggerStay (Collider other)
