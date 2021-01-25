@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float HP = 1f;
+
+    private bool isStartednewScene = false;
     void Start()
     {
         
@@ -15,7 +17,11 @@ public class Player : MonoBehaviour
     {
         if (HP <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (!isStartednewScene) { 
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneLoader.StartScene(SceneManager.GetActiveScene().name);
+                isStartednewScene = true;
+            }
         }
     }
      void OnTriggerEnter (Collider other)
