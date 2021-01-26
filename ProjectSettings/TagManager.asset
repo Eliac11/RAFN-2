@@ -11,6 +11,8 @@ TagManager:
   - Remington
   - Door
   - DoorKey
+  - Dead
+  - CCamera
   layers:
   - Default
   - TransparentFX
