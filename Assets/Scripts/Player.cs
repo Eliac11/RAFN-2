@@ -23,12 +23,21 @@ public class Player : MonoBehaviour
                 isStartednewScene = true; 
             }
         }
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+            Debug.Log("Escape pressed!");
+        }
     }
      void OnTriggerEnter (Collider other)
     {
         if(other.tag == "EnemyHit")
         {
             HP = HP - 0.2f;
+        }
+        if(other.tag == "Dead")
+        {
+            HP = HP - 1f;
         }
     }
 }
