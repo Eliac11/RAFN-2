@@ -2092,8 +2092,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468776658}
-  m_LocalRotation: {x: -0.44687867, y: 0.45460945, z: 0.28449982, w: 0.71602345}
-  m_LocalPosition: {x: 253.69096, y: -70.11156, z: 832.10803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 628.12, y: -61.56314, z: 199.48001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2910,7 +2910,7 @@ PrefabInstance:
         type: 3}
       propertyPath: RadioText
       value: "\u043D\u0435\u0442 \u043D\u0435\u0442 \u043D\u0435\u0442 \u0442\u043E\u043B\u044C\u043A\u043E
-        \u043D\u0435 \u043C\u043E\u044F \u0441\u0442\u0430\u0442\u0430...\u0448\u0448\u0448\u0448\u0448\u0448... "
+        \u043D\u0435 \u043C\u043E\u044F \u0441\u0442\u0430\u0442\u0430......hhhhhh... "
       objectReference: {fileID: 0}
     - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
         type: 3}
@@ -3705,6 +3705,12 @@ PrefabInstance:
       propertyPath: Radio
       value: 
       objectReference: {fileID: 1690798872}
+    - target: {fileID: 2061794553718217763, guid: e482f6bbdc6676b4787bc78584f84d2f,
+        type: 3}
+      propertyPath: RadioText
+      value: -Captain,Wallace fell and broke his neck. -Leave him. We can't stop
+        right now
+      objectReference: {fileID: 0}
     - target: {fileID: 5859133786909052020, guid: e482f6bbdc6676b4787bc78584f84d2f,
         type: 3}
       propertyPath: m_RootOrder
