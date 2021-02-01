@@ -9,7 +9,15 @@ public class RadioPodbor : MonoBehaviour
     public string RadioText;
     public GameObject Radio;
 
+    public GameObject textpro;
+
     private bool RadioPod;
+
+
+    void Start()
+    {
+        textpro.GetComponent<TMPro.TextMeshPro>().text = RadioText;
+    }
 
     // Update is called once per frame
     void Update()
