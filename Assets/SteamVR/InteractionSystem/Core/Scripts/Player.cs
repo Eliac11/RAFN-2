@@ -75,7 +75,9 @@ namespace Valve.VR.InteractionSystem
 				}
 				Vector2 m = a_move.GetAxis(SteamVR_Input_Sources.LeftHand);
 				m = Quaternion.Euler(0, 0, -cr.eulerAngles.y) * m;
-				this.transform.position += new Vector3(m.x / 10, 0, m.y / 10);
+				this.transform.position += new Vector3(m.x / 20, 0, m.y / 20);
+				//this.GetComponent<Rigidbody>().AddForce(new Vector3(m.x / 20, 0, m.y / 20) * 300 * Time.deltaTime, ForceMode.Impulse);
+				
 			}
 		}
 

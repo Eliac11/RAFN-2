@@ -4194,7 +4194,7 @@ RectTransform:
   m_GameObject: {fileID: 1360386970}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -300.29}
-  m_LocalScale: {x: 4.1629, y: 4.1629, z: 4.1629}
+  m_LocalScale: {x: 3.462367, y: 3.462367, z: 3.462367}
   m_Children:
   - {fileID: 864665074}
   - {fileID: 1301371887}
@@ -4207,7 +4207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 213.49, y: 93.94}
+  m_AnchoredPosition: {x: 213.51, y: 93.18}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1426479134
@@ -5635,6 +5635,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8150661131238956821, guid: a1e5f61d1c47608479fdd3a71faa29d8,
+        type: 3}
+      propertyPath: allowToggleTo2D
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8150661131249880673, guid: a1e5f61d1c47608479fdd3a71faa29d8,
         type: 3}
       propertyPath: m_Name
