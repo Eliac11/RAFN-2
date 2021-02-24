@@ -42,48 +42,6 @@ namespace Valve.VR.InteractionSystem
 
 		public bool allowToggleTo2D = true;
 
-		
-
-
-		
-
-
-		public SteamVR_Action_Vector2 a_move = SteamVR_Input.GetAction<SteamVR_Action_Vector2>("PlayerMove");
-
-		public SteamVR_Action_Vector2 a_rotate = SteamVR_Input.GetAction<SteamVR_Action_Vector2>("PlayerRotate");
-
-		public SteamVR_Action_Boolean a_menu = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("MenuClick");
-
-		void Update()
-		{
-			bool st = a_menu.GetStateDown(SteamVR_Input_Sources.Any);
-			if (st)
-			{
-				this.transform.position = new Vector3(0, 0, 0);
-			}
-			else
-			{
-				Camera camera = this.GetComponentInChildren<Camera>();
-				Quaternion cr = Quaternion.Euler(0, 0, 0);
-				if (camera != null)
-				{
-					Vector2 r = a_rotate.GetAxis(SteamVR_Input_Sources.RightHand);
-					Quaternion qp = this.transform.rotation;
-					qp.eulerAngles += new Vector3(0, r.x, 0);
-					this.transform.rotation = qp;
-					cr = camera.transform.rotation;
-				}
-				Vector2 m = a_move.GetAxis(SteamVR_Input_Sources.LeftHand);
-				m = Quaternion.Euler(0, 0, -cr.eulerAngles.y) * m;
-				this.transform.position += new Vector3(m.x / 20, 0, m.y / 20);
-				//this.GetComponent<Rigidbody>().AddForce(new Vector3(m.x / 20, 0, m.y / 20) * 300 * Time.deltaTime, ForceMode.Impulse);
-				
-			}
-		}
-
-
-
-
 
 		//-------------------------------------------------
 		// Singleton instance of the Player. Only one can exist at a time.
@@ -332,7 +290,23 @@ namespace Valve.VR.InteractionSystem
 			}
         }
 
-        
+        protected virtual void Update()
+        {
+            if (SteamVR.initializedState != SteamVR.InitializedStates.InitializeSuccess)
+                return;
+
+            if (headsetOnHead != null)
+            {
+                if (headsetOnHead.GetStateDown(SteamVR_Input_Sources.Head))
+                {
+                    Debug.Log("<b>SteamVR Interaction System</b> Headset placed on head");
+                }
+                else if (headsetOnHead.GetStateUp(SteamVR_Input_Sources.Head))
+                {
+                    Debug.Log("<b>SteamVR Interaction System</b> Headset removed");
+                }
+            }
+        }
 
 		//-------------------------------------------------
 		void OnDrawGizmos()
