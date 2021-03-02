@@ -84,9 +84,8 @@ public class VRContr2 : MonoBehaviour
         //movement.y -= g * Time.deltaTime;
 
         //ChContrlr.Move(movement * Time.deltaTime);
-        if (rig.velocity.magnitude < maxspeed){
+        
         rig.AddForce(movement);
-        }
     }
 
     void HandleHeight()
