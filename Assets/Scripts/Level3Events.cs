@@ -26,7 +26,7 @@ public class Level3Events : MonoBehaviour
         {
             if (dummy.GetComponent<Rigidbody>().velocity.magnitude == 0)
             {
-                player.transform.position = dummy.transform.position;
+                player.transform.position = new Vector3(dummy.transform.position.x,dummy.transform.position.y+20,dummy.transform.position.z);
 
 
                 player.SetActive(true);

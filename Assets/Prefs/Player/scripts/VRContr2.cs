@@ -32,6 +32,8 @@ public class VRContr2 : MonoBehaviour
     {
         //Camerarig = SteamVR_Render.Top().origin;
         //head = SteamVR_Render.Top().head;
+
+	rig.maxDepenetrationVelocity = 1;
     }
     void Update()
     {
@@ -61,29 +63,12 @@ public class VRContr2 : MonoBehaviour
 
         Vector3 movement = Vector3.zero;
 
-        if (MovePress.GetStateUp(SteamVR_Input_Sources.Any))
-        {
-            speed = 0;
-        }
-
-        if (MovePress.state)
-        {
-            speed += movevalue.axis.y * Sensitivity;
-            speed = Mathf.Clamp(speed,-maxspeed,maxspeed);
-
-            
-
-            
-        }
-
         Vector2 m = movevalue.axis;
 		m = Quaternion.Euler(0, 0, -head.rotation.eulerAngles.y) * m;
 
-        movement += new Vector3(m.x,0,m.y) * 15 ;
+        movement += new Vector3(m.x,0,m.y) * maxspeed ;
 
-        //movement.y -= g * Time.deltaTime;
-
-        //ChContrlr.Move(movement * Time.deltaTime);
+        
         
         rig.AddForce(movement);
     }
