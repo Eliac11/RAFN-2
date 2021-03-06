@@ -1506,6 +1506,7 @@ MonoBehaviour:
   g: 30
   Sensitivity: 0.1
   maxspeed: 1500
+  maxjump: 200
   RotateIncrement: 90
   RotatePress:
     actionPath: /actions/default/in/GrabGrip
@@ -1515,6 +1516,9 @@ MonoBehaviour:
     needsReinit: 0
   movevalue:
     actionPath: /actions/default/in/PlayerMove
+    needsReinit: 0
+  JumpPress:
+    actionPath: /actions/default/in/Jump
     needsReinit: 0
   Camerarig: {fileID: 5046637603746264708}
   head: {fileID: 5046637603746279060}

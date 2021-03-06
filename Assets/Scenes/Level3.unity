@@ -1389,7 +1389,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 8f96b1db6bda0884c94591d2426a2a22, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 1680
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -1400,17 +1400,17 @@ Terrain:
   m_HeightmapMaximumLOD: 0
   m_ShadowCastingMode: 2
   m_DrawHeightmap: 1
-  m_DrawInstanced: 0
+  m_DrawInstanced: 1
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_MaterialTemplate: {fileID: 2100000, guid: 8985eec2d72e91840b986fefe5ee145b, type: 2}
   m_BakeLightProbesForTrees: 1
-  m_PreserveTreePrototypeLayers: 0
+  m_PreserveTreePrototypeLayers: 1
   m_DeringLightProbesForTrees: 1
   m_ScaleInLightmap: 0.0256
   m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
   m_GroupingID: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 4294967295
   m_AllowAutoConnect: 1
 --- !u!4 &282960065
 Transform:
@@ -2024,8 +2024,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468776658}
-  m_LocalRotation: {x: -0.11659182, y: -0.71327686, z: -0.122333035, w: 0.6802038}
-  m_LocalPosition: {x: 628.4414, y: 30.939945, z: 237.41425}
+  m_LocalRotation: {x: -0.32523727, y: -0.60734695, z: -0.29928318, w: 0.66013634}
+  m_LocalPosition: {x: 735.71155, y: -116.416275, z: 233.44713}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6128,12 +6128,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b544816461f324e56a39767fdeb5b114, type: 3}
---- !u!1 &1602884372 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4217058128517991783, guid: 59351cb64b2f07645af4ec6715528535,
-    type: 3}
-  m_PrefabInstance: {fileID: 1849448844}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1614396252
 GameObject:
   m_ObjectHideFlags: 0
@@ -7161,14 +7155,14 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4160749567
+    m_Bits: 3089
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 0
+  m_HDR: 1
   m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
+  m_AllowDynamicResolution: 1
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -7596,7 +7590,7 @@ MonoBehaviour:
   - {fileID: 2538967531578436596, guid: aba09ce09123061469d584e9fed2c782, type: 3}
   spawnheight: 20
   spawnrect: 30
-  player: {fileID: 1602884372}
+  player: {fileID: 1131962775}
 --- !u!1 &2073014959
 GameObject:
   m_ObjectHideFlags: 0

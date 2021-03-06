@@ -10,13 +10,17 @@ public class VRContr2 : MonoBehaviour
     public float g = 30f;
     public float Sensitivity = 0.1f;
     public float maxspeed = 1;
+    public float maxjump = 1;
     public float RotateIncrement = 90;
     
     public SteamVR_Action_Boolean RotatePress = null;
     public SteamVR_Action_Boolean MovePress = null;
     public SteamVR_Action_Vector2 movevalue = null;
 
+    public SteamVR_Action_Boolean JumpPress = null;
+
     private float speed = 0.0f;
+    private float jump = 0.0f;
 
     private CapsuleCollider ChContrlr = null;
     public Transform Camerarig = null;
@@ -41,6 +45,18 @@ public class VRContr2 : MonoBehaviour
         HandleHeight();
         CalculateMovement();
         //snapRotation();
+        if (jump > 0){
+        jump -= Time.deltaTime;
+        }
+        if (JumpPress.GetStateDown(SteamVR_Input_Sources.LeftHand)){
+            if (jump <= 0){
+            rig.AddForce(transform.up*maxjump, ForceMode.Impulse );
+            jump = 0.5f;
+            }
+                
+            
+            //Debug.Log("fff");
+        }
         
     }
 
