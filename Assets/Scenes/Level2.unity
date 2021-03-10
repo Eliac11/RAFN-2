@@ -6474,11 +6474,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: VRcontroller3
       objectReference: {fileID: 0}
-    - target: {fileID: 6945474883342545228, guid: 8016ac5d79ac54146959910d0af82784,
-        type: 3}
-      propertyPath: maxspeed
-      value: 1500
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8016ac5d79ac54146959910d0af82784, type: 3}
 --- !u!1 &615620734 stripped

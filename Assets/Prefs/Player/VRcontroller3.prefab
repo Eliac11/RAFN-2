@@ -1505,7 +1505,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   g: 30
   Sensitivity: 0.1
-  maxspeed: 1500
+  maxspeed: 25
   maxjump: 200
   RotateIncrement: 90
   RotatePress:

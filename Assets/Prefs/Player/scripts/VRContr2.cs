@@ -86,7 +86,7 @@ public class VRContr2 : MonoBehaviour
 
         
         
-        rig.AddForce(movement);
+        rig.AddForce(movement, ForceMode.Impulse);
     }
 
     void HandleHeight()
