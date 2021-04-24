@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
         {
             if (!isStartednewScene) { 
                 //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-                SceneLoader.StartScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                 isStartednewScene = true; 
             }
         }

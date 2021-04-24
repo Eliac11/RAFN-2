@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840672}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840674}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger42_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840676}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840678}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840680}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,7 +258,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840682}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger32_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840684}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840686}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +352,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840688}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840690}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger22_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840692}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,7 +446,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840694}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -477,7 +477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840696}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840698}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger12_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840700}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,7 +571,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840702}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -602,7 +602,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840448}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger22_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -632,7 +632,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840450}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger12_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -662,7 +662,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840452}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger02_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -692,7 +692,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840454}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Anim_Attachment_RH_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840456}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Anim_Attachment_LH_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.forward_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,7 +784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840460}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.forward
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840462}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_Spine1_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,7 +846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840464}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -877,7 +877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840466}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840468}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -939,7 +939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840470}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Toe0_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,7 +971,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840472}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,7 +1002,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840474}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1033,7 +1033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1069,7 +1069,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840478}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1100,7 +1100,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840490}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.forward_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840492}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_Spine1_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,7 +1160,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840494}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Toe0_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1190,7 +1190,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840496}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger42_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1220,7 +1220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840498}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger32_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1250,7 +1250,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840500}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger22_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1280,7 +1280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840502}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger12_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1310,7 +1310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840504}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger02_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1340,7 +1340,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840506}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Toe0_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1370,7 +1370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840508}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger42_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1400,7 +1400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840510}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger32_end_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1430,7 +1430,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840576}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1461,7 +1461,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840578}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1492,7 +1492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840580}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1523,7 +1523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840582}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1554,7 +1554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840584}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Anim_Attachment_RH_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1585,7 +1585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840586}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Anim_Attachment_RH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1616,7 +1616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840588}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Anim_Attachment_LH_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1648,7 +1648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840590}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Anim_Attachment_LH
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1679,7 +1679,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840592}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1712,7 +1712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516300808710840594}
   - component: {fileID: 516300808713924670}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obama.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1875,7 +1875,7 @@ GameObject:
   - component: {fileID: 516300808710749450}
   - component: {fileID: 516300808710749448}
   - component: {fileID: 5305695504670155939}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2089,7 +2089,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840598}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Obama
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2120,7 +2120,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840600}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2151,7 +2151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840602}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2184,7 +2184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840604}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2215,7 +2215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840606}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2248,7 +2248,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840608}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2279,7 +2279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840610}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2310,7 +2310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840612}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger32_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2342,7 +2342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840614}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2373,7 +2373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840616}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger31
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2404,7 +2404,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840618}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2435,7 +2435,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840620}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger22_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2467,7 +2467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840622}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2498,7 +2498,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840624}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2529,7 +2529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840626}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2560,7 +2560,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840628}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger12_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2592,7 +2592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840630}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2623,7 +2623,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840632}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2654,7 +2654,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840634}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2685,7 +2685,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840636}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger02_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2717,7 +2717,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840638}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2748,7 +2748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840640}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2779,7 +2779,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840642}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger02_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2811,7 +2811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840644}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2842,7 +2842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840646}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2873,7 +2873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840648}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Finger0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2904,7 +2904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840650}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Clavicle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2935,7 +2935,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840652}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_R_Calf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2966,7 +2966,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840654}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_UpperArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2997,7 +2997,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840656}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Toe0_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3029,7 +3029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840658}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Toe0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3060,7 +3060,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840660}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Thigh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3091,7 +3091,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3127,7 +3127,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840664}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Forearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3158,7 +3158,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840666}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3189,7 +3189,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840668}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger42_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,7 +3221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 516300808710840670}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: ValveBiped.Bip01_L_Finger42
   m_TagString: Untagged
   m_Icon: {fileID: 0}

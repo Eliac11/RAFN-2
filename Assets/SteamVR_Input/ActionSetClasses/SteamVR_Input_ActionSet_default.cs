@@ -145,11 +145,19 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean Jump
+        public virtual SteamVR_Action_Boolean JumpAction
         {
             get
             {
-                return SteamVR_Actions.default_Jump;
+                return SteamVR_Actions.default_JumpAction;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean ddd
+        {
+            get
+            {
+                return SteamVR_Actions.default_ddd;
             }
         }
         

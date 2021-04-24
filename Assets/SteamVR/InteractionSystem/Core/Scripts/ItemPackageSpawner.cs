@@ -99,6 +99,7 @@ namespace Valve.VR.InteractionSystem
 		//-------------------------------------------------
 		void Start()
 		{
+			CreatePreviewObject();
 			VerifyItemPackage();
 		}
 

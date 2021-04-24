@@ -20,7 +20,7 @@ public ParticleSystem vistrel;
 Animator hahanimator;
 private AudioSource audio;
 
-private bool inhand = false;
+private bool inhand = true;
 
 	public void inhandSet(bool i)
 	{

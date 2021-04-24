@@ -124,7 +124,7 @@ Material:
     - _FoamWaveDependency: 0.10205479
     - _FresnelPower: 1.7931035
     - _FresnelScale: 0.6571428
-    - _GerstnerIntensity: 1.6714286
+    - _GerstnerIntensity: 0
     - _HeightDisplacement: 3.2722514
     - _InvFade: 0.628783
     - _InvFadeDepthFade: 0.07197756
@@ -144,16 +144,16 @@ Material:
     - WaveSpeed: {r: 1.086165, g: 4.440575, b: 12.105146, a: -3.0206447}
     - _AnimationDirection: {r: 2, g: 4, b: 2, a: -1}
     - _AnimationTiling: {r: 0.04582553, g: 0.0182, b: 0.045714468, a: 0.027129691}
-    - _BaseColor: {r: 0.1792376, g: 0.1792376, b: 0.1792376, a: 0.82}
-    - _BumpDirection: {r: 40, g: 40, b: 40, a: -40}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BumpDirection: {r: 0, g: 0, b: 0, a: 0}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _BumpTiling: {r: 0.12, g: 0.07, b: 0.08, a: 0.06}
+    - _BumpTiling: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthColor: {r: 0.027511697, g: 0.14179105, b: 0.13226777, a: 0.4627451}
     - _DepthColorFade: {r: 0.8880597, g: 0.27834705, b: 0.44463244, a: 0.22352941}
     - _Displacement: {r: 6.6371665, g: 20.353983, b: -1, a: -0.681416}
     - _DisplacementXz: {r: 0.6499999, g: -2.9203715, b: 1.6599998, a: -3.9363046}
-    - _DistortParams: {r: 1.4399999, g: 0.24285714, b: 1.8530641, a: -0.53142846}
+    - _DistortParams: {r: 0, g: 0, b: 0.1, a: 0}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
     - _Extinction: {r: 4.5, g: 75, b: 300, a: 1}
     - _Foam: {r: 0.42666668, g: 0.48666668, b: 0, a: 0}
@@ -169,7 +169,7 @@ Material:
     - _InvFadeParemeter: {r: 0.21896552, g: 0.15944828, b: 0.04310345, a: 0}
     - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectColor: {r: 1, g: 1, b: 1, a: 0.5}
-    - _ReflectionColor: {r: 0.21554896, g: 0.24407145, b: 0.2641428, a: 0.43137255}
+    - _ReflectionColor: {r: 0, g: 0, b: 0, a: 0}
     - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}

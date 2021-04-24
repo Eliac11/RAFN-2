@@ -25,6 +25,8 @@ public class VRContr2 : MonoBehaviour
     private CapsuleCollider ChContrlr = null;
     public Transform Camerarig = null;
     public Transform head = null;
+
+    public Transform invent = null;
     private Rigidbody rig = null;
     private void Awake()
     {
@@ -41,6 +43,8 @@ public class VRContr2 : MonoBehaviour
     }
     void Update()
     {
+
+invent.transform.eulerAngles = new Vector3(0,head.eulerAngles.y,0);
         //HandleHead();
         HandleHeight();
         CalculateMovement();
@@ -103,6 +107,7 @@ public class VRContr2 : MonoBehaviour
         newCenter.x = head.localPosition.x;  
         newCenter.z = head.localPosition.z;
 
+	invent.transform.localPosition = newCenter;
         //newCenter = Quaternion.Euler(0,-transform.eulerAngles.y,0) * newCenter;
 
         ChContrlr.center = newCenter;
@@ -122,4 +127,10 @@ public class VRContr2 : MonoBehaviour
 
         transform.RotateAround(head.position,Vector3.up,snapValue);
     }
+void FixedUpdate()
+   {
+         if(rig.velocity.magnitude > maxspeed)
+         {
+                rig.velocity = rig.velocity.normalized * maxspeed;
+         }}
 }

@@ -228,6 +228,40 @@
                },
                "mode" : "button",
                "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/jumpaction"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/jumpaction"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/default/in/jumpaction"
+                  },
+                  "touch" : {
+                     "output" : "/actions/default/in/jumpaction"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/y"
+            },
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/hand/left/input/x"
+            },
+            {
+               "inputs" : {},
+               "mode" : "button",
+               "path" : "/user/hand/right/input/x"
             }
          ]
       },
@@ -263,7 +297,7 @@
    "category" : "steamvr_input",
    "controller_type" : "vive_cosmos_controller",
    "description" : "",
-   "name" : "vive_cosmos_controller",
+   "name" : "RAFN2Cotr",
    "options" : {},
    "simulated_actions" : []
 }
