@@ -11,10 +11,15 @@ public class Enemy : MonoBehaviour
     public float Radius = 15;
     public float HP = 100;
     public GameObject Ragdoll;
+	public bool canattack = true;
     void Start()
     {
         nav = GetComponent<NavMeshAgent> ();
     }
+	public void SetCanattack()
+	{
+	canattack = true;
+	}
 
     void Update()
     {
@@ -29,6 +34,7 @@ public class Enemy : MonoBehaviour
         { 
            nav.enabled = false;
            gameObject.GetComponent<Animator>().SetTrigger("Idle");
+canattack = true;
         }
         if(dist < Radius & dist>2f)
         {
@@ -39,7 +45,10 @@ public class Enemy : MonoBehaviour
         
         if(dist < 2f)
         {
+	if(canattack){
             gameObject.GetComponent<Animator>().SetTrigger("Attack");
+		canattack=false;
+		}
         }
     }
        void OnTriggerEnter (Collider other)
