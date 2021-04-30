@@ -13,8 +13,8 @@ public class SpawnerRegdolloverplayer : MonoBehaviour
     public float spawnrect;
     public GameObject player;
 
-    
-
+    public GameObject randEnemy;
+	public GameObject targrandEnemy;
     private float curenttime;
     private int curinndex;
     private GameObject curregdoll;
@@ -45,6 +45,9 @@ public class SpawnerRegdolloverplayer : MonoBehaviour
     {
         curinndex = Random.Range(0, regdolls.Length);
         curregdoll = Instantiate(regdolls[curinndex]);
-        curregdoll.transform.position = new Vector3(gameObject.transform.position.x  - Random.Range(-spawnrect, spawnrect), gameObject.transform.position.y + spawnheight, gameObject.transform.position.z - Random.Range(-spawnrect, spawnrect));
+	Vector3 n = new Vector3(gameObject.transform.position.x  - Random.Range(-spawnrect, spawnrect), gameObject.transform.position.y + spawnheight, gameObject.transform.position.z - Random.Range(-spawnrect, spawnrect));
+        curregdoll.transform.position = n;
+
+	targrandEnemy.transform.position = n;
     }
 }
