@@ -18,6 +18,9 @@ public class SpawnerRegdolloverplayer : MonoBehaviour
     private float curenttime;
     private int curinndex;
     private GameObject curregdoll;
+
+
+    public GameObject groza;
     void Start()
     {
         curenttime = maxtimespawn;
@@ -49,5 +52,7 @@ public class SpawnerRegdolloverplayer : MonoBehaviour
         curregdoll.transform.position = n;
 
 	targrandEnemy.transform.position = n;
+        groza.transform.position = n;
+        groza.GetComponent<SongsGroza>().PlayGroza();
     }
 }
