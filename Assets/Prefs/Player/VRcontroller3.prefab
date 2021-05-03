@@ -827,6 +827,7 @@ GameObject:
   - component: {fileID: 5046637603746799006}
   - component: {fileID: 5046637603752041416}
   - component: {fileID: 5046637603753275722}
+  - component: {fileID: 7869088031712632573}
   m_Layer: 9
   m_Name: VRCamera
   m_TagString: MainCamera
@@ -905,6 +906,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!124 &5046637603753275722
 Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5046637603746189146}
+  m_Enabled: 1
+--- !u!81 &7869088031712632573
+AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1559,7 +1568,6 @@ GameObject:
   - component: {fileID: 6945474883342545229}
   - component: {fileID: 6945474883342545226}
   - component: {fileID: 8117298880373057876}
-  - component: {fileID: 2777789908338769404}
   - component: {fileID: 7561103370515083396}
   m_Layer: 9
   m_Name: VRcontroller3
@@ -1659,14 +1667,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 1
---- !u!81 &2777789908338769404
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6945474883342545227}
-  m_Enabled: 1
 --- !u!114 &7561103370515083396
 MonoBehaviour:
   m_ObjectHideFlags: 0

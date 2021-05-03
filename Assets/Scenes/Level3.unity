@@ -1774,16 +1774,6 @@ PrefabInstance:
       propertyPath: m_Volume
       value: 0.655
       objectReference: {fileID: 0}
-    - target: {fileID: 5156130996425776145, guid: 59351cb64b2f07645af4ec6715528535,
-        type: 3}
-      propertyPath: MaxDistance
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 5156130996425776145, guid: 59351cb64b2f07645af4ec6715528535,
-        type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59351cb64b2f07645af4ec6715528535, type: 3}
 --- !u!1001 &336384699
@@ -2765,8 +2755,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468776658}
-  m_LocalRotation: {x: -0.20178032, y: 0.40566826, z: 0.092445485, w: 0.8866633}
-  m_LocalPosition: {x: 622.7342, y: 12.963699, z: 255.77425}
+  m_LocalRotation: {x: -0.0019603937, y: 0.9582748, z: 0.28576624, w: 0.0065859207}
+  m_LocalPosition: {x: 384.27234, y: -274.0653, z: 737.33234}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9343,16 +9333,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ImmortalNig (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5156130996425776145, guid: 59351cb64b2f07645af4ec6715528535,
-        type: 3}
-      propertyPath: m_Volume
-      value: 0.655
-      objectReference: {fileID: 0}
-    - target: {fileID: 5156130996425776145, guid: 59351cb64b2f07645af4ec6715528535,
-        type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59351cb64b2f07645af4ec6715528535, type: 3}
