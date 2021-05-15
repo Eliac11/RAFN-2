@@ -79,7 +79,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 82cb53d4e8e07634f81161b0672053e0, type: 3}
   t: 0
   mintimespawn: 1
-  maxtimespawn: 20
+  maxtimespawn: 15
 --- !u!82 &1456534370845260844
 AudioSource:
   m_ObjectHideFlags: 0
