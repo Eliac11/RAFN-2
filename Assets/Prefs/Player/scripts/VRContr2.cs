@@ -86,11 +86,11 @@ invent.transform.eulerAngles = new Vector3(0,head.eulerAngles.y,0);
         Vector2 m = movevalue.axis;
 		m = Quaternion.Euler(0, 0, -head.rotation.eulerAngles.y) * m;
 
-        movement += new Vector3(m.x,0,m.y) * maxspeed ;
+        movement += new Vector3(m.x,0,m.y) * maxspeed * Time.deltaTime;
 
         
         
-        rig.AddForce(movement, ForceMode.Impulse);
+        rig.AddForce(movement , ForceMode.Impulse);
     }
 
     void HandleHeight()

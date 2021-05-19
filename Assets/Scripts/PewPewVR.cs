@@ -1,7 +1,8 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 public class PewPewVR : MonoBehaviour
 {
@@ -20,11 +21,12 @@ public ParticleSystem vistrel;
 Animator hahanimator;
 private AudioSource audio;
 
-private bool inhand = true;
+private SteamVR_Input_Sources inhand;
 
-	public void inhandSet(bool i)
+	public void OnAttachedToHand( Hand hand )
 	{
-		inhand = i;
+		inhand = hand.handType;
+		//Debug.Log(hand.handType.ToString() == "LeftHand");
 	}
 	void Start()
 {
@@ -41,18 +43,13 @@ private bool inhand = true;
 
 	void Update() 
 {
-	if(SteamVR_Actions._default.Fire.GetStateDown(SteamVR_Input_Sources.Any))
+	if(SteamVR_Actions._default.Fire.GetStateDown(inhand))
 	{
-		
 				if (canfire)
 				{
-					if (inhand)
-					{
 						FireVR();
 						canfire = false;
-					}
 				}
-		
 	}
 
 		//if (Input.GetKey(KeyCode.R))

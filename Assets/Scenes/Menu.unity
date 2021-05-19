@@ -173,7 +173,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 863fa569ea5162344b22a88ef2a0be01, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.556
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3474,7 +3474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258218358}
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 212.09, y: 93.268, z: -296.72}
+  m_LocalPosition: {x: 211.94, y: 93.268, z: -296.72}
   m_LocalScale: {x: 7.7204146, y: 0.39451435, z: 9.627234}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5392,6 +5392,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 5046637603752050790, guid: 8016ac5d79ac54146959910d0af82784,
+        type: 3}
+      propertyPath: debugHints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5047074653638660010, guid: 8016ac5d79ac54146959910d0af82784,
         type: 3}
       propertyPath: m_Layer
@@ -5471,11 +5476,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VRcontroller3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6945474883342545228, guid: 8016ac5d79ac54146959910d0af82784,
-        type: 3}
-      propertyPath: maxspeed
-      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 6945474883342545228, guid: 8016ac5d79ac54146959910d0af82784,
         type: 3}

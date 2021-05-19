@@ -569,7 +569,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5046637603746229466
 Transform:
   m_ObjectHideFlags: 0
@@ -778,7 +778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5046637603746263650
 Transform:
   m_ObjectHideFlags: 0
@@ -1606,7 +1606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   g: 30
   Sensitivity: 0.1
-  maxspeed: 20.63
+  maxspeed: 1000
   maxjump: 200
   RotateIncrement: 90
   RotatePress:
