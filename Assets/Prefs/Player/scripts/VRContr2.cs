@@ -10,6 +10,7 @@ public class VRContr2 : MonoBehaviour
     public float g = 30f;
     public float Sensitivity = 0.1f;
     public float maxspeed = 1;
+    public float realmaxspeed = 1;
     public float maxjump = 1;
     public float RotateIncrement = 90;
     
@@ -28,6 +29,12 @@ public class VRContr2 : MonoBehaviour
 
     public Transform invent = null;
     private Rigidbody rig = null;
+
+    [SerializeField] private float m_StepInterval;
+    [SerializeField] private AudioClip[] m_FootstepSounds;
+    private AudioSource m_AudioSource;
+    private float m_StepCycle;
+    private float m_NextStep;
     private void Awake()
     {
         ChContrlr = GetComponent<CapsuleCollider>();
@@ -38,8 +45,10 @@ public class VRContr2 : MonoBehaviour
     {
         //Camerarig = SteamVR_Render.Top().origin;
         //head = SteamVR_Render.Top().head;
-
-	rig.maxDepenetrationVelocity = 1;
+        m_StepCycle = 0f;
+        m_NextStep = m_StepCycle/2f;
+	    rig.maxDepenetrationVelocity = 1;
+        m_AudioSource = GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -129,8 +138,41 @@ invent.transform.eulerAngles = new Vector3(0,head.eulerAngles.y,0);
     }
 void FixedUpdate()
    {
-         if(rig.velocity.magnitude > maxspeed)
+         if(rig.velocity.magnitude > realmaxspeed)
          {
-                rig.velocity = rig.velocity.normalized * maxspeed;
-         }}
+                rig.velocity = rig.velocity.normalized * realmaxspeed;
+         }
+         ProgressStepCycle(0);
+    }
+    private void PlayFootStepAudio()
+        {
+            if (!(jump <= 0))
+            {
+                return;
+            }
+            // pick & play a random footstep sound from the array,
+            // excluding sound at index 0
+            int n = Random.Range(1, m_FootstepSounds.Length);
+            m_AudioSource.clip = m_FootstepSounds[n];
+            m_AudioSource.PlayOneShot(m_AudioSource.clip);
+            // move picked sound to index 0 so it's not picked next time
+            m_FootstepSounds[n] = m_FootstepSounds[0];
+            m_FootstepSounds[0] = m_AudioSource.clip;
+        }
+    private void ProgressStepCycle(float speed)
+        {
+            if (rig.velocity.sqrMagnitude > 0)
+            {
+                m_StepCycle += (rig.velocity.magnitude + speed)*Time.fixedDeltaTime;
+            }
+
+            if (!(m_StepCycle > m_NextStep))
+            {
+                return;
+            }
+
+            m_NextStep = m_StepCycle + m_StepInterval;
+
+            PlayFootStepAudio();
+        }
 }

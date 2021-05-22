@@ -13594,6 +13594,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1456534370845260844, guid: 860aea0f06dca6644a5dee3b7b0e40c3,
+        type: 3}
+      propertyPath: DopplerLevel
+      value: 0.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456534370845260844, guid: 860aea0f06dca6644a5dee3b7b0e40c3,
+        type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0.37777779
+      objectReference: {fileID: 0}
+    - target: {fileID: 1456534370845260844, guid: 860aea0f06dca6644a5dee3b7b0e40c3,
+        type: 3}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0.327
+      objectReference: {fileID: 0}
     - target: {fileID: 1456534370845260847, guid: 860aea0f06dca6644a5dee3b7b0e40c3,
         type: 3}
       propertyPath: m_Name

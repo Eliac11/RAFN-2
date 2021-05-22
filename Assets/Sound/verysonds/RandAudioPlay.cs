@@ -15,7 +15,7 @@ public class RandAudioPlay : MonoBehaviour
     void Start()
     {
         audiosors = GetComponent<AudioSource>();
-        t = maxtimespawn;
+        t = 1;
     }
 
     // Update is called once per frame
