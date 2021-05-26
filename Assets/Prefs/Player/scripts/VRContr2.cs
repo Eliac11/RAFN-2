@@ -28,6 +28,7 @@ public class VRContr2 : MonoBehaviour
     public Transform head = null;
 
     public Transform invent = null;
+    public float inventDY = 0;
     private Rigidbody rig = null;
 
     [SerializeField] private float m_StepInterval;
@@ -115,11 +116,14 @@ invent.transform.eulerAngles = new Vector3(0,head.eulerAngles.y,0);
 
         newCenter.x = head.localPosition.x;  
         newCenter.z = head.localPosition.z;
+    ChContrlr.center = newCenter;
 
-	invent.transform.localPosition = newCenter;
+    Vector3 inventoryCenter = newCenter;
+    inventoryCenter.y += inventDY;
+	invent.transform.localPosition = inventoryCenter;
         //newCenter = Quaternion.Euler(0,-transform.eulerAngles.y,0) * newCenter;
 
-        ChContrlr.center = newCenter;
+        
     }
     private void snapRotation()
     {
@@ -146,18 +150,19 @@ void FixedUpdate()
     }
     private void PlayFootStepAudio()
         {
-            if (!(jump <= 0))
-            {
-                return;
-            }
-            // pick & play a random footstep sound from the array,
-            // excluding sound at index 0
+            if (!m_AudioSource.isPlaying){
+                if (!(jump <= 0))
+                {
+                    return;
+                }
+            
             int n = Random.Range(1, m_FootstepSounds.Length);
             m_AudioSource.clip = m_FootstepSounds[n];
             m_AudioSource.PlayOneShot(m_AudioSource.clip);
-            // move picked sound to index 0 so it's not picked next time
+            
             m_FootstepSounds[n] = m_FootstepSounds[0];
             m_FootstepSounds[0] = m_AudioSource.clip;
+            }
         }
     private void ProgressStepCycle(float speed)
         {

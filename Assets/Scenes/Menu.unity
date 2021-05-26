@@ -5292,6 +5292,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1758998429144328689, guid: 8016ac5d79ac54146959910d0af82784,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 3405770007146105584, guid: 8016ac5d79ac54146959910d0af82784,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5486,6 +5491,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drag
       value: 2.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7850379086136246070, guid: 8016ac5d79ac54146959910d0af82784,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8140201389174968913, guid: 8016ac5d79ac54146959910d0af82784,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 9034587532338115091, guid: 8016ac5d79ac54146959910d0af82784,
+        type: 3}
+      propertyPath: m_Layer
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8016ac5d79ac54146959910d0af82784, type: 3}
